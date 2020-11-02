@@ -1,0 +1,313 @@
+/*
+Name: Shravani Belgamwar
+Red ID: 824670386
+CS 545
+Assignment 2 
+*/
+
+body{
+	font-size: 14pt;
+	background-color: #f2f2f2;
+	color: #000000;
+	font-family: Arial, san-serif;
+	margin: 0px;
+}
+
+/*header*/
+
+header {
+	padding: 0px;
+	margin: 0px;
+	background-color: #3D4542;
+	color: #ffffff;
+	text-align: center;
+
+}
+div.first {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 15px;
+	margin: 0px 0px 0px -10px;
+	text-align: center;
+	border-bottom: 2px solid #fffcf5;
+	
+}
+h1{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 36pt;
+	color: #fffcf5;
+	font-family: "Palatino Linotype", "Times New Roman", serif;
+	text-align: center;
+	width: 100%;
+}
+
+/* navigation bar */
+
+.clrflt {
+	background-color: #123622;
+	font-weight: bold;
+	clear: both;
+	text-align: center;
+	font-size: 22pt;
+	padding: 5px;
+	color: white;
+}
+nav a:link, a:visited{
+	padding: 0px 15px;
+	color: #fffcf5;
+	text-decoration: none;
+}
+nav a:hover, a:active {
+	padding: 0px 15px;
+	color: #fffcf5;
+	background-color: #123622;
+	text-decoration: none;
+}
+li a:link,a:visited,a:active{
+	background-color: #123622 ; 
+}
+nav a{
+	margin: 10px;
+}
+
+h2 {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24pt;
+	font-family: "Palatino Linotype", "Times New Roman", serif;
+	margin-bottom: 5px;
+}
+h3 a:visited, a:active,a:link{
+	color: #0000ff;
+	background-color: #f2f2f2;
+}
+.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20pt;
+  padding: 20px;
+}
+.home-mission{
+	background-color:#00202a;
+	color:white;
+	padding:20px;
+	margin-top: 20px;
+	text-align: center;
+}
+.home-purpose{
+	background-color: #360000;
+	color:white;
+	padding:20px;
+	margin-top: 20px;
+	text-align: center;
+}
+.home-mission p{
+	font-size: 18pt;
+}
+.home-purpose p{
+	font-size: 18pt;
+}
+p a:visited {
+	color: #0000ff;
+}
+footer p a{
+ 	background-color: #3D4542;
+}
+
+/* Footer */
+footer {
+	display: flex;
+	flex-wrap: nowrap;
+	height: auto;
+	text-align: Left;
+	background-color: #3D4542;
+	color: #fffcf5;
+	padding: 0px 20px;
+	margin: 0px;
+
+}
+footer a{
+	text-decoration: none ;
+	color: #fffcf5;
+	
+}
+
+footer a:link, footer a:visited {
+	color: #fffcf5;
+    background-color: #3D4542 ; 
+	/*text-decoration: none;*/
+}
+
+footer a:hover, footer a:active {
+	color: #fffcf5;
+	background-color: #3D4542;
+	text-decoration: none;
+}
+.fcolumn1 {
+    float: none;
+    width: 25%;
+    padding: 15px;
+/*	border-right: 2px solid #fffcf5; */
+}
+.fcolumn2 {
+    float: none;
+    width: 25%;
+    padding: 15px;
+}
+.fcolumn3 {
+    float: none;
+    width: 25%;
+    padding: 15px;
+/*	border-left: 2px solid #fffcf5; */
+}
+.fcolumn4 {
+    float: none;
+    width: 25%;
+    padding:  15px;
+/*	border-left: 2px solid #fffcf5; */
+}
+
+.img-responsive{
+	max-width:  100%;
+	height: auto;
+}
+/*Home */
+
+.img-responsive{
+	max-width:  100%;
+	height: auto;
+	display: block;
+	
+}
+div.home-container{
+	margin: 40px;
+	text-align: center;
+}
+td img{
+    display: block;
+
+}
+.img-pading{
+	padding-top: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Flex display */
+.flex-container {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0px 20px;
+}
+
+/* 3 column styles */
+
+.column3_1 {
+    float: left;
+    width: 33%;
+    padding: 15px;
+	border-right: 2px solid #3D4542;
+}
+.column3_2 {
+    float: left;
+    width: 33%;
+    padding: 15px;
+}
+.column3_3 {
+    float: left;
+    width: 33%;
+    padding: 15px;
+	border-left: 2px solid #3D4542;
+}
+
+/* 2 column styles */
+
+.column2_1 {
+    float: left;
+    width: 75%;
+    padding: 15px;
+	border-right: 2px solid #3D4542;
+}
+aside {
+    float: left;
+    width: 23%;
+    padding: 15px;
+}
+
+/*Image float */
+.fltrght {
+	float: right;
+	margin-left: 10px;
+}
+
+.fltimglft {
+	float: left;
+	text-align: left;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 12pt;
+	margin-left: 5px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.fltimgrght {
+	float: right;
+	text-align: left;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 12pt;
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+}
+
+
+.fltimgnone {
+	float: none;
+	text-align: left;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 12pt;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+/* flex container*/
+.flexcontainer{
+	display: flex;
+  justify-content: center;
+ 
+}
+.flexindex {
+  background-color: #ffffff;
+  width: 33.33%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.flexdonate{
+	background-color: #ffffff;
+	padding: 10px;
+	margin: 10px;
+	justify-content: center;
+}
+.flexabout{
+  width: 33.33%;
+  margin: 10px;
+  text-align: center;
+}
+.flexexhibits{
+  width: 50%;
+ margin: 20px;
+ text-align: justify-all;
+}
